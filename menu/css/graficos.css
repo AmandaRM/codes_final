@@ -1,0 +1,214 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 'Kite One';
+  color: rgb(228, 47, 19);
+}
+
+.container {
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: relative;
+  float: left;
+  font-family: Arimo;
+  text-align: center;
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+}
+
+._container {
+  background-size: contain;
+  background-position: left top;
+}
+
+._element {
+  clear: both;
+  z-index: 3;
+  width: 8.3333333333%;
+  height: 53px;
+  margin: 38px 0 0 15.19043%;
+  background-image: url('../images/seta2.png');
+  background-size: 100px 100px;
+  background-position: left center;
+}
+
+.container-1 {
+  clear: both;
+  z-index: 7;
+  width: 36.5625%;
+  height: 137px;
+  margin: 5px 0 0 14.23584%;
+  background-image: url('../images/valor_pedido.png');
+}
+
+.container-2 {
+  z-index: 8;
+  width: 21.25%;
+  height: 131px;
+  margin: 5px 0 0 6.79688%;
+  background-image: url('../images/produtos.png');
+}
+
+.container-4 {
+  z-index: 6;
+  width: 41.25%;
+  height: 170px;
+  margin: 15px 0 0 6.94336%;
+  background-image: url('../images/graficos2.jpg');
+}
+
+.text-1 {
+  clear: both;
+  z-index: 1;
+  width: 39.0625%;
+  min-height: 58px;
+  margin: 13px 0 0 30.46875%;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  z-index: 2;
+  width: 25.6%;
+  min-height: 63px;
+  margin: -5px 0 0 0.75684%;
+  font-size: 1.875em;
+  color: rgb(16, 227, 28);
+}
+
+._button-1 {
+  width: 80%;
+  height: 58px;
+  margin: 39px 0 0 10%;
+  background-color: rgb(118, 222, 90);
+  font-family: Cabin;
+  font-size: 2.813em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+._button-2 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  width: 21.25%;
+  height: 22px;
+  margin: 45px 0 0 15.19043%;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  color: rgb(228, 47, 19);
+}
+
+._button-3 {
+  position: relative;
+  clear: both;
+  z-index: 9;
+  width: 30.625%;
+  height: 49px;
+  margin: -22px 0 0 53.36914%;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  color: rgb(228, 47, 19);
+}
+
+._button-4 {
+  clear: both;
+  width: 15.78125%;
+  height: 22px;
+  margin: 8px 0 0 24.53125%;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  color: rgb(228, 47, 19);
+}
+
+@media(max-width: 417px) {
+  .container {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  ._element {
+    z-index: 3;
+    width: 17.7458033573%;
+    margin-top: 176px;
+    margin-left: 12.65363%;
+  }
+
+  .container-1 {
+    clear: none;
+    z-index: 7;
+    width: 36.4508393285%;
+    height: 95px;
+    margin-top: 24px;
+    margin-left: 12.70609%;
+  }
+
+  .container-2 {
+    z-index: 8;
+    margin-top: 24px;
+    margin-left: 8.28837%;
+  }
+
+  .container-4 {
+    clear: both;
+    z-index: 6;
+    width: 49.8800959232%;
+    height: 139px;
+    margin-top: -201px;
+    margin-left: 23.59113%;
+  }
+
+  .text-1 {
+    z-index: 1;
+    width: 66.4268585131%;
+    margin-left: 16.77908%;
+  }
+
+  .text-2 {
+    clear: both;
+    z-index: 2;
+    margin-top: -114px;
+    margin-left: 29.59008%;
+  }
+
+  ._button-1 {
+    margin-left: 9.99326%;
+  }
+
+  ._button-2 {
+    position: relative;
+    z-index: 5;
+    width: 27.0983213429%;
+    height: 51px;
+    margin-top: 34px;
+    margin-left: 16.06715%;
+  }
+
+  ._button-3 {
+    position: relative;
+    clear: none;
+    z-index: 9;
+    margin-top: -51px;
+    margin-left: 48.06655%;
+  }
+
+  ._button-4 {
+    position: relative;
+    z-index: 4;
+    width: 58.2733812949%;
+    margin-top: -16px;
+    margin-left: 16.06715%;
+  }
+}

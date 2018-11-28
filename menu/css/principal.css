@@ -1,0 +1,197 @@
+body {
+  min-width: none;
+  height: 100%;
+  min-height: nonepx;
+  background: url('../images/coco.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  font: 400 2.5em/1.7 Montserrat;
+  color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.text {
+  float: left;
+  min-width: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  height: 55px;
+  border-radius: 400px;
+  background-color: rgb(207, 14, 14);
+  font: 0.4em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  float: left;
+  clear: both;
+  margin-left: 24.4986%;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font: 0.325em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  width: 17%;
+  min-height: nonepx;
+  margin: -22px 0 0 24.4986%;
+  background-color: rgba(0, 0, 0, 0);
+  font: 0.4em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  width: 18.5%;
+  min-height: nonepx;
+  margin-top: -21px;
+  background-color: rgba(0, 0, 0, 0);
+  font: 0.4em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  width: 80%;
+  min-height: 72px;
+  margin: 83px 0 0 12.23881%;
+  background-color: rgba(19, 194, 23, 0.87);
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._button-1 {
+  width: 14.3283582089%;
+  margin: 34px 0 0 45.93284%;
+}
+
+._button-2 {
+  width: 24.0298507462%;
+  margin: 19px 0 0 41.49487%;
+}
+
+._input-1 {
+  width: 56.8619402985%;
+  height: 42px;
+  margin-top: 95px;
+}
+
+._input-2 {
+  width: 56.8656716417%;
+  height: 40px;
+  margin-top: 15px;
+}
+
+@media(max-width: 600px) {
+  ._input {
+    margin-left: 27.35677%;
+  }
+
+  .text-1 {
+    margin-left: 24.5%;
+  }
+
+  .text-3 {
+    margin-top: 29px;
+    margin-left: 10%;
+  }
+
+  ._button-1 {
+    margin-left: 45.92969%;
+  }
+
+  ._button-2 {
+    margin-left: 46.33594%;
+  }
+
+  ._input-1 {
+    margin-top: 149px;
+  }
+}
+
+@media(max-width: 360px) {
+  body {
+    font-size: 2.5em;
+  }
+
+  ._button {
+    position: relative;
+    margin-top: 28px;
+  }
+
+  ._input {
+    margin-left: 24.48785%;
+  }
+
+  .text-1 {
+    margin-left: 24.48785%;
+  }
+
+  .text-3 {
+    float: none;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(31, 233, 36, 0.87);
+    font-family: Cabin;
+    line-height: 2;
+  }
+
+  ._button-1 {
+    z-index: 5;
+    width: 29.0167865707%;
+    margin-left: 12.46962%;
+  }
+
+  ._button-2 {
+    clear: none;
+    z-index: 6;
+    width: 36.1111111111%;
+    margin-left: 8.51128%;
+  }
+
+  ._input-1 {
+    margin-top: 234px;
+  }
+
+  ._input-2 {
+    margin-top: 20px;
+  }
+}

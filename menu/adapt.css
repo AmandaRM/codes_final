@@ -1,0 +1,113 @@
+
+.header {
+    text-align: center;
+    margin:1rem;
+}
+
+
+.logo {
+    background-color: #0000FF;
+    flex-grow: 1;
+    height: 5rem;
+    margin-right: .5rem;
+}
+
+.menu {
+    background-color: #009E19;
+    font: menu;
+    text-align: center;
+    color:white;
+    font-size: 3rem;
+    font-family: "Arial";
+    margin-left: 1rem;
+}
+
+.titulo {
+    font: menu;
+    text-align: center;
+    color:white;
+    font-size: 3rem;
+    font-family: "Arial";
+    padding-bottom: 0rem;
+    margin-bottom: 0rem, 0rem, 0rem, 0rem;
+    background-color: #1fe924;
+}
+
+h2 { 
+    font-family: "Arial";
+    color: black;
+    font-size: 1rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    margin-left: 7.5rem;
+
+ }
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: red;
+    border: black;
+    color: white;
+    padding: 1.2rem 1.2rem;
+    text-decoration: none;
+    margin: 0.5rem 0.75rem;
+    display: inline-flex;
+    flex-direction: center;
+    cursor: pointer;
+}
+
+ .bnt{
+    background-color:red;
+    font-size: 1rem;
+    padding: 1rem;
+    display: inline-flex;
+    flex-direction: center;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+@media (min-width: 361px) {
+
+}
+
+p {
+    margin: 0;
+}
+
+.features {
+    font-size: 1.2rem;
+    font-family: Arial;
+    padding: 0;
+    margin-left: 5.5rem;
+
+}
+
+
+.botao {
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Arial";
+}
+
+a {
+    font-size: 2rem;
+    font-family: "Arial";
+    text-decoration: none;
+    color: black;
+
+
+}
+
+div {
+    margin-bottom: 1rem;
+    padding: 0;
+}
+

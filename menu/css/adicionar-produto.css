@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.75em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 8.3325195312%;
+  height: 53px;
+  margin: 300px 0 0 32.84049%;
+  background-image: url('../images/seta2.png');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left center;
+}
+
+.text {
+  float: left;
+  width: 66.4%;
+  min-height: 64px;
+  margin: 46px 0 0 16.79804%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  height: 87px;
+  border-radius: 300px;
+  background-color: rgb(14, 171, 79);
+  font-size: 0.571em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button-1 {
+  width: 53.5820895522%;
+  margin: 33px 0 0 23.58209%;
+}
+
+._button-2 {
+  width: 53.4328358208%;
+  margin: 62px 0 0 23.59375%;
+}
+
+@media(max-width: 417px) {
+  .container {
+    width: 17.7458033573%;
+    margin-top: 188px;
+    margin-left: 15.19035%;
+  }
+
+  .text {
+    margin-left: 16.79032%;
+  }
+
+  ._button-1 {
+    margin-left: 23.57989%;
+  }
+
+  ._button-2 {
+    margin-left: 23.59113%;
+  }
+}

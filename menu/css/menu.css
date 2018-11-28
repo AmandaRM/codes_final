@@ -1,0 +1,227 @@
+body {
+  min-width: none;
+  height: 100%;
+  min-height: nonepx;
+  background: url('../images/coco.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  font: 400 1em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 8.3325195312%;
+  height: 53px;
+  margin: 41px 0 0 12.89646%;
+  background-image: url('../images/seta2.png');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left center;
+}
+
+.text {
+  float: left;
+  min-width: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 55.9701492537%;
+  min-width: none;
+  height: 57px;
+  min-height: nonepx;
+  margin-left: 21.22668%;
+  border: 5px solid rgb(53, 109, 11);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.text-1 {
+  width: 17%;
+  min-height: nonepx;
+  margin: -22px 0 0 24.4986%;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Helvetica;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  width: 18.5%;
+  min-height: nonepx;
+  margin-top: -21px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Helvetica;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  width: 80%;
+  min-height: 72px;
+  margin: 35px 0 0 10%;
+  background-color: rgba(19, 194, 23, 0.87);
+  font-style: normal;
+  font-size: 1.875em;
+  line-height: 1.7;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._button-1 {
+  margin-top: 42px;
+}
+
+._button-2,
+._button-3 {
+  margin-top: 21px;
+}
+
+._button-4,
+._button-5 {
+  margin-top: 23px;
+}
+
+@media(max-width: 600px) {
+  .container {
+    margin-top: 100px;
+    margin-left: 16.96875%;
+  }
+
+  ._button {
+    margin-left: 37.19792%;
+  }
+
+  .text-1 {
+    margin-left: 24.5%;
+  }
+
+  .text-3 {
+    margin-top: 29px;
+  }
+
+  ._button-1 {
+    margin-top: 52px;
+  }
+
+  ._button-2 {
+    margin-top: 41px;
+  }
+
+  ._button-3 {
+    margin-top: 28px;
+  }
+
+  ._button-4 {
+    margin-top: 58px;
+  }
+
+  ._button-5 {
+    margin-top: 9px;
+  }
+}
+
+@media(max-width: 417px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container {
+    width: 17.7458033573%;
+    margin-top: 35px;
+    margin-left: 8.58813%;
+  }
+
+  ._button {
+    width: 45.5635491606%;
+    margin-left: 27.57794%;
+  }
+
+  .text-1 {
+    margin-left: 24.49041%;
+  }
+
+  .text-3 {
+    float: none;
+    margin-top: 34px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(31, 233, 36, 0.87);
+    font-family: Cabin;
+    line-height: 2;
+  }
+
+  ._button-1 {
+    margin-top: 37px;
+    font-style: normal;
+  }
+
+  ._button-2 {
+    margin-top: 23px;
+  }
+
+  ._button-3 {
+    margin-top: 25px;
+  }
+
+  ._button-4 {
+    margin-top: 27px;
+  }
+
+  ._button-5 {
+    margin-top: 28px;
+  }
+}

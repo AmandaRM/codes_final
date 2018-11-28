@@ -1,0 +1,180 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 'Kite One';
+  color: rgba(238, 28, 28, 0.95);
+}
+
+.container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 8.3333333333%;
+  height: 53px;
+  margin: -108px 0 0 15.19043%;
+  background-image: url('../images/seta2.png');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left center;
+}
+
+.text {
+  float: left;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.text-1 {
+  position: relative;
+  clear: both;
+  z-index: 3;
+  width: 5.1999999999%;
+  min-height: 24px;
+  margin: 13px 0 0 16.79932%;
+  font-size: 1em;
+  color: rgba(238, 28, 28, 0.95);
+}
+
+.text-2 {
+  position: relative;
+  z-index: 1;
+  width: 39.0625%;
+  min-height: 58px;
+  margin-left: 10.13916%;
+  font: 1.25em/1.5 Arimo;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  position: relative;
+  clear: both;
+  z-index: 4;
+  width: 5.1981770833%;
+  min-height: 23px;
+  margin: -45px 0 0 50.6958%;
+  font-size: 1em;
+  color: rgba(238, 28, 28, 0.95);
+}
+
+.text-4 {
+  position: relative;
+  z-index: 5;
+  width: 9.6875%;
+  min-height: 24px;
+  margin: -45px 0 0 66.70654%;
+  font-size: 1em;
+  color: rgba(238, 28, 28, 0.95);
+}
+
+.text-5 {
+  position: absolute;
+  clear: both;
+  top: 183px;
+  left: -2.0751953125%;
+  width: 25.6%;
+  min-height: 63px;
+  margin: 24px 0 0 -2.0752%;
+  font-family: Arimo;
+  font-size: 1.875em;
+  text-align: center;
+  color: rgb(16, 227, 28);
+}
+
+._button-1 {
+  z-index: 0;
+  height: 58px;
+  margin-top: 39px;
+  border-radius: 3px;
+  background-color: rgb(118, 222, 90);
+  font-family: Cabin;
+  font-size: 2.813em;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+._button-2 {
+  z-index: 6;
+  height: 32px;
+  margin-top: -28px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+@media(max-width: 417px) {
+  .container {
+    position: relative;
+    z-index: 7;
+    width: 17.7458033573%;
+    margin-top: 470px;
+    margin-left: 12.65363%;
+  }
+
+  ._button {
+    position: relative;
+    margin-left: 9.99326%;
+  }
+
+  .text-1 {
+    position: relative;
+    clear: none;
+    z-index: 3;
+    margin-top: -324px;
+    margin-left: 16.79032%;
+  }
+
+  .text-2 {
+    position: relative;
+    z-index: 1;
+    width: 66.4268585131%;
+    margin-top: -510px;
+    margin-left: 16.77908%;
+  }
+
+  .text-3 {
+    position: relative;
+    clear: none;
+    z-index: 4;
+    margin-top: -324px;
+    margin-left: 50.68945%;
+  }
+
+  .text-4 {
+    position: relative;
+    z-index: 5;
+    margin-top: -324px;
+    margin-left: 71.08438%;
+  }
+
+  .text-5 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 163px;
+    left: 34.3899880095%;
+    width: 25.5995203836%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  ._button-1 {
+    z-index: 0;
+  }
+
+  ._button-2 {
+    clear: both;
+    z-index: 6;
+    margin-top: -369px;
+  }
+}
